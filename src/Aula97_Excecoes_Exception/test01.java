@@ -9,8 +9,7 @@ public class test01 {
       
 	}
 	
-	private static void criarNovoArquivo() {
-		
+	private static void criarNovoArquivo() {	
 		File file = new File("arquivo/texto3.txt");
 		try {
 			boolean isCriado = file.createNewFile();
