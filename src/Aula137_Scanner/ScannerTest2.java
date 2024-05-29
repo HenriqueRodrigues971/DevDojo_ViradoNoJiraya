@@ -6,7 +6,7 @@ public class ScannerTest2 {
  public static void main(String[] args) {
 	String texto = "Levi, Eren, Mikasa,true,200";
 	Scanner scan = new Scanner(texto);
-	scan.useDelimiter(",");
+	scan.useDelimiter(","); //Delimita a string na virgular, ele vai separar as string em cada virgula
 	while(scan.hasNext()) { // verifica se existe algo
 		if(scan.hasNextInt()) {
 			int i = scan.nextInt();
