@@ -9,5 +9,6 @@ public class AtiviadeSomaArray {
 	  soma += i;
 	 }
 	 System.out.println(soma);
+	 
 	 }
 }
