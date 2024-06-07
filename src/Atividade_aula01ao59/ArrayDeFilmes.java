@@ -15,11 +15,12 @@ public class ArrayDeFilmes {
 				System.out.println(filmes[i]);
 			}
 		}
-		
+		System.out.println("---");
 		int contFilmeCaracter = 0;
 		for(int c = 0; c < filmes.length; c++) {
 			if(filmes[c].length() > 10) {
 				System.out.println(filmes[c]);
+				System.out.println(contFilmeCaracter);
 				contFilmeCaracter++;
 			}
 		}
