@@ -8,7 +8,7 @@ public abstract class Funcionario extends Pessoa {
 		super();
 		this.nome = nome;
 		this.salario = salario;
-	calcularBonus();
+		calcularBonus();
 	}
 
 	public abstract void calcularBonus();
@@ -16,9 +16,7 @@ public abstract class Funcionario extends Pessoa {
 	@Override
 	public void imprime() {
 		System.out.println("imprimindo...");
-		
-	} 
-  
+
+	}
 
 }
-

@@ -14,10 +14,8 @@ public class Gerente extends Funcionario {
 	@Override
 	public void calcularBonus() {
 		this.salario = salario + salario * 0.20;
-		
-	}
-	/*public void calcularBonus(){} posso deixai vazio caso não tenha bônus*/
 
-	
-	
+	}
+	/* public void calcularBonus(){} posso deixai vazio caso não tenha bônus */
+
 }

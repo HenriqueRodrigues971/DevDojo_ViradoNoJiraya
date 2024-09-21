@@ -8,8 +8,8 @@ public abstract class Funcionario {
 		super();
 		this.nome = nome;
 		this.salario = salario;
-	calcularBonus();
+		calcularBonus();
 	}
 
-	public abstract void calcularBonus(); 
+	public abstract void calcularBonus();
 }

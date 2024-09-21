@@ -7,7 +7,7 @@ public class ArrayDeFilmes {
 		filmes[1] = "Toy Story";
 		filmes[2] = "A Fera";
 		filmes[3] = "Anjos da lei";
-		filmes[4] = "Mulque te doido";
+		filmes[4] = "Muleque te doido";
 
 		
 		for (int i = 0; i < filmes.length; i++) {
