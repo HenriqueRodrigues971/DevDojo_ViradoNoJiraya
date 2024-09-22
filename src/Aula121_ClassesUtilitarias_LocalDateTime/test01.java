@@ -48,15 +48,7 @@ public class test01 {
 		String dataHoraFormatada = agora.format(formatador);
 		System.out.println("Data e hora formatadas (formato brasileiro): " + dataHoraFormatada);
 
-		// A classe Instant é uma parte do pacote java.time, introduzida no Java 8. Ela
-		// representa um ponto específico
-		// na linha do tempo, definido como a quantidade de tempo desde o epoch padrão
-		// (01 de janeiro de 1970, meia-noite, UTC).
-		// É útil para operações de data e hora em um contexto em que precisamos de uma
-		// medida de tempo absoluta,
-		// independente de fusos horários ou calendários. Podemos usá-la para registrar
-		// eventos, calcular diferenças de tempo,
-		// realizar comparações entre instantes e muito mais.
+		
 
 	}
 }

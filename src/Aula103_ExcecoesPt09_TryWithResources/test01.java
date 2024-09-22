@@ -8,7 +8,7 @@ import java.io.Reader;
 
 public class test01 {
     public static void main(String[] args) {
-        lerArquivo3();
+        lerArquivo2();
     }
 
     // Exemplo básico de try-with-resources

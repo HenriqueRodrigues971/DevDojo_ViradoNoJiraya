@@ -2,7 +2,7 @@ package Aula98_ExcecoesPt04_LacandoUnchecked;
 
 public class test02 {
 	public static void main(String[] args) {
-		System.out.println(divisao(10, 2));
+		System.out.println(divisao(10, 0));
 	}
 /**
  * @param a

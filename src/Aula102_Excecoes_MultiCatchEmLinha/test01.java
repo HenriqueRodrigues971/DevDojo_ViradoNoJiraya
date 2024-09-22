@@ -1,3 +1,4 @@
+
 package Aula102_Excecoes_MultiCatchEmLinha;
 
 import java.io.FileNotFoundException;
@@ -10,7 +11,8 @@ public class test01 {
 			throw new ArrayIndexOutOfBoundsException();
 
 		} catch (ArrayIndexOutOfBoundsException | IllegalArgumentException | ArithmeticException e) {
-			System.out.println("Dentro do ArrayIndexOutOfBoundsException | IllegalArgumentException | ArithmeticException");
+			System.out.println(
+					"Dentro do ArrayIndexOutOfBoundsException | IllegalArgumentException | ArithmeticException");
 		} catch (IndexOutOfBoundsException e) {
 			System.out.println("Dentro do IndexOutOfBoundsException");
 		} catch (RuntimeException e) {
@@ -22,7 +24,7 @@ public class test01 {
 		}
 		try {
 			talvezLanceException();
-		} catch (SQLException | FileNotFoundException e ) {
+		} catch (SQLException | FileNotFoundException e) {
 			e.printStackTrace();
 		}
 	}

@@ -21,7 +21,7 @@ public class NumberFormatTest01 {
 			System.out.println(numberFormat.getMaximumFractionDigits());
 			System.out.println(numberFormat.format(valor));
 		}
-		
+
 		String valorString = "1000,2130";
 		try {
 			NumberFormat formatoBrasil = NumberFormat.getNumberInstance(localPT);

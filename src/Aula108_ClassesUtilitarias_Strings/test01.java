@@ -1,12 +1,22 @@
 package Aula108_ClassesUtilitarias_Strings;
 /*
-A classe utilitária String em Java fornece métodos para manipular cadeias de caracteres (strings). Ela é uma das classes mais usadas em Java devido à sua versatilidade e às muitas operações que oferece para trabalhar com texto. Abaixo, vamos explorar brevemente por que usar a classe String e, em seguida, fornecer exemplos de seu uso ao longo do código.
+A classe utilitária String em Java fornece métodos para manipular cadeias de caracteres (strings). 
+Ela é uma das classes mais usadas em Java devido à sua versatilidade e às muitas operações que oferece para trabalhar com texto. 
+Abaixo, vamos explorar brevemente por que usar a classe String e,
+ em seguida, fornecer exemplos de seu uso ao longo do código.
 
 Por que usar a classe String:
-- A classe String oferece uma ampla gama de métodos para manipular strings, como concatenação, comparação, substituição, busca, extração de substrings, entre outros.
-- É imutável, o que significa que uma vez que uma string é criada, ela não pode ser modificada. Isso garante a segurança e a integridade dos dados.
-- A imutabilidade das strings torna-as seguras para compartilhamento entre threads em programas concorrentes.
-- Strings em Java são objetos, o que permite que você use métodos da classe String para manipular texto de maneira eficiente e eficaz.
+- A classe String oferece uma ampla gama de métodos para manipular strings, como concatenação, 
+comparação, substituição, busca, extração de substrings, entre outros.
+
+- É imutável, o que significa que uma vez que uma string é criada, 
+ela não pode ser modificada. Isso garante a segurança e a integridade dos dados.
+
+- A imutabilidade das strings torna-as seguras para compartilhamento entre threads
+ em programas concorrentes.
+
+- Strings em Java são objetos, o que permite que você use métodos da classe String
+ para manipular texto de maneira eficiente e eficaz.
 
 Aqui estão alguns exemplos de operações comuns usando a classe String:
 */
@@ -32,9 +42,9 @@ public class test01 {
 
 		// Exemplo de busca de substring
 		String frase = "Aprender Java é divertido!";
-		String subFrase = frase.substring(9, 12); // "Java"
+		String subFrase = frase.substring(9, 13); // "Java"
 		System.out.println(subFrase);
-		
+
 		// Exemplo de substituição de caracteres
 		String textoOriginal = "Hello, world!";
 		String novoTexto = textoOriginal.replace('l', 'z'); // "Hezzo, worzd!"

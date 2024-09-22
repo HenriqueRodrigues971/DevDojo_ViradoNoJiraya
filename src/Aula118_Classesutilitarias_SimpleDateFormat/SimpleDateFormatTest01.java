@@ -12,7 +12,7 @@ public class SimpleDateFormatTest01 {
 		SimpleDateFormat sdf2 = new SimpleDateFormat(pattern2);
 		System.out.println(sdf.format(new Date()));
 		System.out.println(sdf2.format(new Date()));
-		
+
 		try {
 			System.out.println(sdf2.parse("Amsterdam 29 de março de 2024"));
 		} catch (ParseException e) {

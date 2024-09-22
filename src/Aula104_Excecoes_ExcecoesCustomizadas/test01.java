@@ -2,13 +2,16 @@ package Aula104_Excecoes_ExcecoesCustomizadas;
 
 import java.util.Scanner;
 
+import Aula68_LeituraDeDadosDeConsole.leituraDoTecladoTest01;
+
 public class test01 {
-	public static void main(String[]args) {
+	public static void main(String[] args) {
 		try {
 			logar();
 		} catch (loginInvalidoException e) {
-           e.printStackTrace();
+			e.printStackTrace();
 		}
+
 	}
 
 	private static void logar() throws loginInvalidoException {
@@ -24,5 +27,6 @@ public class test01 {
 			throw new loginInvalidoException("Usuario ou senha inválidos");
 		}
 		System.out.println("usuario logado com sucesso!");
+		teclado.close();
 	}
 }

@@ -14,9 +14,9 @@ public class tes01 {
 		df[4] = DateFormat.getDateInstance(DateFormat.MEDIUM);
 		df[5] = DateFormat.getDateInstance(DateFormat.LONG);
 		df[6] = DateFormat.getDateInstance(DateFormat.FULL);
-      
+
 		System.out.println("Dentro do for");
-		for(DateFormat dateFormat : df) {
+		for (DateFormat dateFormat : df) {			
 			System.out.println(dateFormat.format(calendar.getTime()));
 		}
 	}
