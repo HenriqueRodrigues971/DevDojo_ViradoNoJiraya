@@ -5,9 +5,11 @@ import java.nio.file.Paths;
 
 public class PathTest01 {
 	public static void main(String[] args) {
-		/*usaremos essa interface para consultar um Path(arquivo)*/
-    Path p1 = Paths.get("file.txt");
-    
-    System.out.println(p1.getFileName());/*Pegando o nome do arquivo*/
+		/* Usaremos a classe Paths para criar um Path que representa o arquivo */
+		Path p1 = Paths.get("/home/henrique/eclipse-workspace/DevDojo_ViradoNoJiraya/file.txt");
+
+		System.out.println(p1.getFileName()); /* Obtendo o nome do arquivo */
+		System.out.println(p1.getFileName().toFile()); /* Convertendo o Path para um objeto File */
+		System.out.println(p1.getFileName().toFile().toPath()); /* Convertendo o File de volta para um Path */
 	}
 }
